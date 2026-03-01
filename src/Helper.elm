@@ -49,4 +49,4 @@ airplaneScheduleAction status =
 
 airportAction : List AirplaneStatus -> List String
 airportAction statutes =
-  List.map airplaneScheduleAction statutes
+    List.map airplaneScheduleAction statutes
