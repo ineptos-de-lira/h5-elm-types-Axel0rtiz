@@ -31,6 +31,10 @@ type AirplaneStatus
     | Cancelled
 
 
+
+-- No me sirve el test pipipi--
+
+
 airplaneScheduleAction : AirplaneStatus -> String
 airplaneScheduleAction status =
     case status of
